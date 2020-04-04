@@ -1,0 +1,29 @@
+{
+  "name": "zhihu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app/index.js"
+  },
+  "author": "dingkai",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "koa-json": "^2.0.2",
+    "koa-json-error": "^3.1.2",
+    "koa-jwt": "^3.6.0",
+    "koa-parameter": "^3.0.1",
+    "koa-redis": "^4.0.1",
+    "koa-router": "^8.0.8",
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.7",
+    "require-directory": "^2.1.1",
+    "validator": "^13.0.0"
+  }
+}
